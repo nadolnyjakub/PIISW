@@ -1,0 +1,32 @@
+#title {
+    height: 70px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 15px;
+    opacity: 1;
+}
+#title>h1 {
+    vertical-align:middle;
+    text-align: center;
+}
+#contents {
+    position: absolute;
+    margin-top: 1em;
+    width: 120px;
+    height: 800px;
+    background-color: brown;
+}
+article {
+    margin-left: 140px;
+    margin-right: 20px;
+}
+div.sticky#title {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 0, 221);
+}
+div.sticky#contents {
+    position: fixed;
+    margin-top: 1em;
+}
